@@ -26,10 +26,10 @@ insights, your team will design a new marketing strategy to convert casual rider
 
 ## Prepare
 ### Data Source: 
-(Divvy_Trips_2019_Q1)(https://divvy-tripdata.s3.amazonaws.com/index.html)
-(Divvy_Trips_2019_Q2)(https://divvy-tripdata.s3.amazonaws.com/index.html)
-(Divvy_Trips_2019_Q3)(https://divvy-tripdata.s3.amazonaws.com/index.html)
-(Divvy_Trips_2019_Q4)(https://divvy-tripdata.s3.amazonaws.com/index.html)
+(Divvy_Trips_2019_Q1)(https://divvy-tripdata.s3.amazonaws.com/index.html).
+(Divvy_Trips_2019_Q2)(https://divvy-tripdata.s3.amazonaws.com/index.html).
+(Divvy_Trips_2019_Q3)(https://divvy-tripdata.s3.amazonaws.com/index.html).
+(Divvy_Trips_2019_Q4)(https://divvy-tripdata.s3.amazonaws.com/index.html).
 
 Note: The datasets have a different name because Cyclisticis a fictional company. For the purposes of this case study, the datasets are appropriate andwill enable you to answer the business questions. The data has been made available by Motivate International Inc. under this (license)(https://divvybikes.com/data-license-agreement).)
 
