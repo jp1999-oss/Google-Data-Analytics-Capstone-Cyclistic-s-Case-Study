@@ -47,10 +47,11 @@ Explanation: The Divvy_Trips_2019 data was split up into 4 csv files. One file f
 ## Data Exploration
 SQL Query:[Data Exploration](https://github.com/jp1999-oss/Google-Data-Analytics-Capstone-Cyclistic-s-Case-Study/blob/main/02.%20Data%20Exploration)
 
-Explanation: During data exploration I familiarised myself with some key factors of the data set, such as, rows containing NULL values, rows with outlier data that can skew our analysis.
+Explanation: During data exploration I familiarised myself with some key factors of the data set, such as, the number of rows,rows containing NULL values, rows with outlier data that can skew our analysis, and potential data duplicates.
 
 ## Data Cleaning
 SQL Query:
+
 Explanation:
 
 ## Analyze and Share
