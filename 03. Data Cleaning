@@ -27,5 +27,59 @@ WHERE
     gender IS NULL OR
     birthyear IS NULL;
 
+## 3816142 rows of cleaned data remain.
+
+## day_of_week column added.
+	
+ALTER TABLE divvy_trips_2019_combined_data
+ADD COLUMN day_of_week VARCHAR(5);
+
+## Update day_of_week values.
+
+UPDATE divvy_trips_2019_combined_data
+SET day_of_week = CASE 
+  WHEN EXTRACT(DOW FROM start_time) = 0 THEN 'SUN'
+  WHEN EXTRACT(DOW FROM start_time) = 1 THEN 'MON'
+  WHEN EXTRACT(DOW FROM start_time) = 2 THEN 'TUES'
+  WHEN EXTRACT(DOW FROM start_time) = 3 THEN 'WED'
+  WHEN EXTRACT(DOW FROM start_time) = 4 THEN 'THURS'
+  WHEN EXTRACT(DOW FROM start_time) = 5 THEN 'FRI'
+  WHEN EXTRACT(DOW FROM start_time) = 6 THEN 'SAT'    
+END;
+
+## month column added.
+
+ALTER TABLE divvy_trips_2019_combined_data
+ADD COLUMN month VARCHAR(5);
+
+## Update month values.
+
+UPDATE divvy_trips_2019_combined_data
+SET month = CASE 
+  WHEN EXTRACT(MONTH FROM start_time) = 1 THEN 'JAN'
+  WHEN EXTRACT(MONTH FROM start_time) = 2 THEN 'FEB'
+  WHEN EXTRACT(MONTH FROM start_time) = 3 THEN 'MAR'
+  WHEN EXTRACT(MONTH FROM start_time) = 4 THEN 'APR'
+  WHEN EXTRACT(MONTH FROM start_time) = 5 THEN 'MAY'
+  WHEN EXTRACT(MONTH FROM start_time) = 6 THEN 'JUN'
+	WHEN EXTRACT(MONTH FROM start_time) = 7 THEN 'JUL' 
+	WHEN EXTRACT(MONTH FROM start_time) = 8 THEN 'AUG' 
+	WHEN EXTRACT(MONTH FROM start_time) = 9 THEN 'SEP' 
+	WHEN EXTRACT(MONTH FROM start_time) = 10 THEN 'OCT' 
+	WHEN EXTRACT(MONTH FROM start_time) = 11 THEN 'NOV' 
+	WHEN EXTRACT(MONTH FROM start_time) = 12 THEN 'DEC' 
+END;
+
+# total_ride_time_mins column added.
+
+ALTER TABLE divvy_trips_2019_combined_data
+ADD COLUMN total_ride_time_mins NUMERIC(10, 2);
+
+## Set the total_ride_time_mins.
+
+UPDATE divvy_trips_2019_combined_data
+SET total_ride_time_mins = EXTRACT(EPOCH FROM (end_time - start_time)) / 60.0;
+
+
 
 
