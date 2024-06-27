@@ -45,14 +45,14 @@ SQL Query: [Data Combining](https://github.com/jp1999-oss/Google-Data-Analytics-
 Explanation: The Divvy_Trips_2019 data was split up into 4 csv files. One file for each quarter of the year. Through this query I am able to combine all 4 tables into 1 new table, Divvy_Trips_2019_Combined_Data with a total of 3,818,004 rows.
 
 ## Data Exploration
-SQL Query:[Data Exploration](https://github.com/jp1999-oss/Google-Data-Analytics-Capstone-Cyclistic-s-Case-Study/blob/main/02.%20Data%20Exploration)
+SQL Query: [Data Exploration](https://github.com/jp1999-oss/Google-Data-Analytics-Capstone-Cyclistic-s-Case-Study/blob/main/02.%20Data%20Exploration)
 
 Explanation: During data exploration I familiarised myself with some key factors of the data set, such as, the number of rows,rows containing NULL values, rows with outlier data that can skew our analysis, and potential data duplicates.
 
 ## Data Cleaning
-SQL Query:
+SQL Query: [Data Cleaning](https://github.com/jp1999-oss/Google-Data-Analytics-Capstone-Cyclistic-s-Case-Study/blob/main/03.%20Data%20Cleaning)
 
-Explanation:
+Explanation: During the data cleaning phase, I removed all outlier data that could skew our analysis. I also removed all rows containg NULL values to ensure we could extract and analyze all aspects of every ride. The day_of_week, month, and total_ride_time_mins columns were added.
 
 ## Analyze and Share
 
