@@ -1,0 +1,58 @@
+## Data Exploration
+
+## Checking the data types of the columns
+
+SELECT column_name, data_type
+FROM information_schema.columns
+WHERE table_name = 'divvy_trips_2019_combined_data'
+  AND table_schema = 'public';
+
+## Checking the number of rows in the table.
+	
+SELECT COUNT(*)
+FROM divvy_trips_2019_combined_data
+
+##Checking the number of NULL values in each column.
+	
+SELECT COUNT(*) - COUNT (trip_id) AS trip_id_null_count,
+	COUNT(*) - COUNT (start_time) AS start_time_null_count,
+	COUNT(*) - COUNT (end_time) AS end_time_null_count,
+	COUNT(*) - COUNT (bikeid) AS bikeid_null_count,
+	COUNT(*) - COUNT (tripduration) AS tripduration_null_count,
+	COUNT(*) - COUNT (from_station_id) AS from_station_id_null_count,
+	COUNT(*) - COUNT (from_station_name) AS from_station_name_null_count,
+	COUNT(*) - COUNT (to_station_id) AS to_station_id_null_count,
+	COUNT(*) - COUNT (to_station_name) AS to_station_name_null_count,
+	COUNT(*) - COUNT (usertype) AS usertype_null_count,
+	COUNT(*) - COUNT (gender) AS gender_null_count,
+	COUNT(*) - COUNT (birthyear) AS birthyear_null_count
+FROM divvy_trips_2019_combined_data;
+
+## Checking for duplicate rows.
+
+SELECT COUNT(trip_id) - COUNT(DISTINCT trip_id) AS duplicate_rows
+FROM divvy_trips_2019_combined_data;
+
+## Checking all trip_id values have a length of 8
+
+SELECT LENGTH(trip_id) AS trip_id_length,
+COUNT(trip_id) AS number_of_rows
+FROM divvy_trips_2019_combined_data
+GROUP BY trip_id_length;
+
+## Checking how many rides were longer than a day. The AGE function calculates the interval between two timestamps.
+
+SELECT COUNT(*) AS ride_longer_than_a_day
+FROM divvy_trips_2019_combined_data
+WHERE AGE(end_time, start_time) >= INTERVAL '1 day';
+
+## 1849 rows have a trip duration longer than a day.
+
+## Checking how many rides were less than one minute.
+
+SELECT COUNT(*) AS ride_less_than_one_minute
+FROM divvy_trips_2019_combined_data
+WHERE AGE(end_time, start_time) < INTERVAL '1 minute';
+
+## 13 rows have a trip duration less than one minute.
+
