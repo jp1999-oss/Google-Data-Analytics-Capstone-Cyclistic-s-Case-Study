@@ -71,6 +71,12 @@ Explanation: The Cyclysitc subscribers take more trips than the Cyclsitic member
 
 Explanantion: The Cyclystic members on average, enjoy longer bike rides throughout the month, day, and hour. This is interesting because while their total bike ride is significantly less than subscribers, the members' total ride time in the peak months May thru Oct. is almost 3 times longer than subscribers. The results are similar for the total ride time for bike rides throughout the day and hour.
 
+|Casual|Member|
+|------|------|
+|||
+|||
+|||  
+
 ## Act
 
 
