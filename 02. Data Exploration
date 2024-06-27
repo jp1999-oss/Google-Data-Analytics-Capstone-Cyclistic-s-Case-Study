@@ -1,6 +1,6 @@
 ## Data Exploration
 
-## Checking the data types of the columns
+## Checking the data types of the columns.
 
 SELECT column_name, data_type
 FROM information_schema.columns
