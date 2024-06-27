@@ -12,7 +12,7 @@ WHERE table_name = 'divvy_trips_2019_combined_data'
 SELECT COUNT(*)
 FROM divvy_trips_2019_combined_data
 
-##Checking the number of NULL values in each column.
+##Checking the number of NULL values in each column. There are 558,235 rows containg NULL values.
 	
 SELECT COUNT(*) - COUNT (trip_id) AS trip_id_null_count,
 	COUNT(*) - COUNT (start_time) AS start_time_null_count,
