@@ -40,8 +40,8 @@ There are 4 files containing information about every registered bike ride with a
 PostgreSQl server used to store the databases, and pg Admin used to interact and manage the databases.
 
 ## Combining the Data
-SQL Query:
-Explanation:
+SQL Query: [Data Combining](https://github.com/jp1999-oss/Google-Data-Analytics-Capstone-Cyclistic-s-Case-Study/blob/main/01.%20Data%20Combining)
+Explanation: The Divvy_Trips_2019 data was split up into 4 csv files. One file for each quarter of the year. Through this query I am able to combine all 4 tables into 1 new table, Divvy_Trips_2019_Combined_Data with a total of 3,818,004 rows.
 
 ## Data Exploration
 SQL Query:
