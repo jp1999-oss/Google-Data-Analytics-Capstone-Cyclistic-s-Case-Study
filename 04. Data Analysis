@@ -1,0 +1,17 @@
+## Data Analysis
+
+## Casual riders took 879,283 rides. Member riders took 2,936,859 rides.
+	
+SELECT usertype,
+	COUNT(*) AS total_trips
+FROM divvy_trips_2019_combined_data
+GROUP BY usertype
+ORDER BY usertype, total_trips;
+
+## Casual riders ride more Friday thru Sunday. Subscribed riders ride more Monday thru Friday.
+
+SELECT day_of_week, usertype, COUNT (trip_id) AS total_trips
+FROM divvy_trips_2019_combined_data
+GROUP BY day_of_week, usertype
+ORDER BY usertype, total_trips DESC;
+
