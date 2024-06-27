@@ -4,7 +4,7 @@ Course: [Google Data Analytics Capstone: Complete a Case Study](https://www.cour
 For this case study I will perform the tasks of a junior data analyst working on the marketing team at Cyclistic, a fictional company. 
 
 ## Quick links:
-Data Source:
+Data Source: [Divvy_Trips_2019](https://divvy-tripdata.s3.amazonaws.com/index.html) (Q1-Q4)
 
 SQL Queries:
 
@@ -37,4 +37,6 @@ Note: The datasets have a different name because Cyclisticis a fictional company
 There are 4 files containing information about every registered bike ride with a Cyclistic bike in 2019. The tables columns names are: trip_id,start_time,end_time,bikeid,tripduration,from_station_id,from_station_name,to_station_id,to_station_name,usertype,gender,birthyear,day_of_week,month,total_ride_time_mins. The columns day_of_week, month, and total_ride_time_mins were added during preparation.
 
 ## Process
-PostgreSQl server used to store the database, and pg Admin used to interact and manage the databases.
+PostgreSQl server used to store the databases, and pg Admin used to interact and manage the databases.
+
+
