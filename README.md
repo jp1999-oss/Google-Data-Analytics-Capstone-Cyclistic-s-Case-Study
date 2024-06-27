@@ -46,6 +46,7 @@ Explanation: The Divvy_Trips_2019 data was split up into 4 csv files. One file f
 
 ## Data Exploration
 SQL Query:
+
 Explanation:
 
 ## Data Cleaning
