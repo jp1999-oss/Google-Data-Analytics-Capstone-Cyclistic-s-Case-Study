@@ -52,11 +52,21 @@ Explanation: During data exploration I familiarised myself with some key factors
 ## Data Cleaning
 SQL Query: [Data Cleaning](https://github.com/jp1999-oss/Google-Data-Analytics-Capstone-Cyclistic-s-Case-Study/blob/main/03.%20Data%20Cleaning)
 
-Explanation: During the data cleaning phase, I removed all outlier data that could skew our analysis. I also removed all rows containg NULL values to ensure we could extract and analyze all aspects of every ride. The day_of_week, month, and total_ride_time_mins columns were added.
+Explanation: During the data cleaning phase, I removed all outlier data that could skew our analysis. I also removed all rows containg NULL values to ensure we could extract and analyze all aspects of every ride. The day_of_week, month, and total_ride_time_mins columns were added. The data is cleaned and ready for analysis.
 
-## Analyze and Share
+## Analyze
+### Data Analysis
+SQL Query: [Data Analysis](https://github.com/jp1999-oss/Google-Data-Analytics-Capstone-Cyclistic-s-Case-Study/blob/main/04.%20Data%20Analysis)
+
+Data Visualization: [Tableau](https://public.tableau.com/app/profile/justin.pena/viz/CyclisticsCaseStudy_17194634778200/Avg_BikeRideTimeBreakdown#1)
+
+Explanation: During the data analysis phase, I ran queries to explore the difference in bike usage between annual members and casual riders on the monthly, daily, and hourly timeline. I then utilized Tableau, a visualization program to create line graphs to display the findings. 
+
+##Share
 
 ## Act
+
+
 
 
 
