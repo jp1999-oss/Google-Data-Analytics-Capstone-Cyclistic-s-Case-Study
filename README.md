@@ -34,7 +34,7 @@ insights, your team will design a new marketing strategy to convert casual rider
 Note: The datasets have a different name because Cyclisticis a fictional company. For the purposes of this case study, the datasets are appropriate andwill enable you to answer the business questions. The data has been made available by Motivate International Inc. under this ([license](https://divvybikes.com/data-license-agreement).)
 
 ## Data Organization
-There are 4 files containing information about every registered bike ride with a Cyclistic bike in 2019. The tables columns names are: trip_id,start_time,end_time,bikeid,tripduration,from_station_id,from_station_name,to_station_id,to_station_name,usertype,gender,birthyear,day_of_week,month,total_ride_time_mins. The columns day_of_week, month, and total_ride_time_mins were added during exploration.
+There are 4 files containing information about every registered bike ride with a Cyclistic bike in 2019. The tables columns names are: trip_id,start_time,end_time,bikeid,tripduration,from_station_id,from_station_name,to_station_id,to_station_name,usertype,gender,birthyear,day_of_week,month,total_ride_time_mins. The columns day_of_week, month, and total_ride_time_mins were added during cleaning.
 
 ## Process
 PostgreSQl server used to store the databases, and pg Admin used to interact and manage the databases.
