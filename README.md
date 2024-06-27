@@ -63,8 +63,13 @@ Explanation: During the data analysis phase, I ran queries to explore the differ
 
 ## Share
 
-<img width="849" alt="Screen Shot 2024-06-27 at 2 58 08 PM" src="https://github.com/jp1999-oss/Google-Data-Analytics-Capstone-Cyclistic-s-Case-Study/assets/173986410/48e8d9bc-a492-42f8-afa1-7002e54a1676">
+<img width="844" alt="Screen Shot 2024-06-27 at 3 06 32 PM" src="https://github.com/jp1999-oss/Google-Data-Analytics-Capstone-Cyclistic-s-Case-Study/assets/173986410/d24e855d-8cbd-421e-b08d-c9018d21587b">
 
+Explanation: The Cyclysitc subscribers take more trips than the Cyclsitic members throughout the month, day, and hour, which is expected. In the peak months May thru October, the subscribers ride just under 5 times more than the members. In the peak days Mon-Friday, subscribers ride almost 10 times more than the members. During the peak hours 7AM-8AM, the subscribers ride around 30 times more than the members, and during the other peak hours 4PM-6PM, the subscribers ride around 10 times more than the members. We can assume these trends are due to the Cyclystic subscribers using the bikes to commute to and from work during the week, and the members use the bikes for leisure throughout the afternoon and night on the weekends mostly. Both groups peak during the warmer months, and their total rides decrease during the colder months.
+
+<img width="998" alt="Screen Shot 2024-06-27 at 3 12 19 PM" src="https://github.com/jp1999-oss/Google-Data-Analytics-Capstone-Cyclistic-s-Case-Study/assets/173986410/df641759-1a37-4b9f-91c4-3813eb358a83">
+
+Explanantion: The Cyclystic members on average, enjoy longer bike rides throughout the month, day, and hour. This is interesting because while their total bike ride is significantly less than subscribers, the members' total ride time in the peak months May thru Oct. is almost 3 times longer than subscribers. The results are similar for the total ride time for bike rides throughout the day and hour.
 
 ## Act
 
