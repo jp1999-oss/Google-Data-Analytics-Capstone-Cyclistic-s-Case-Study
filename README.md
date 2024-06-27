@@ -45,9 +45,9 @@ SQL Query: [Data Combining](https://github.com/jp1999-oss/Google-Data-Analytics-
 Explanation: The Divvy_Trips_2019 data was split up into 4 csv files. One file for each quarter of the year. Through this query I am able to combine all 4 tables into 1 new table, Divvy_Trips_2019_Combined_Data with a total of 3,818,004 rows.
 
 ## Data Exploration
-SQL Query:
+SQL Query:[Data Exploration](https://github.com/jp1999-oss/Google-Data-Analytics-Capstone-Cyclistic-s-Case-Study/blob/main/02.%20Data%20Exploration)
 
-Explanation:
+Explanation: During data exploration I familiarised myself with some key factors of the data set, such as, rows containing NULL values, rows with outlier data that can skew our analysis.
 
 ## Data Cleaning
 SQL Query:
