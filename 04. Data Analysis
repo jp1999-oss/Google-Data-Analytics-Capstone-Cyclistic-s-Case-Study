@@ -15,3 +15,18 @@ FROM divvy_trips_2019_combined_data
 GROUP BY day_of_week, usertype
 ORDER BY usertype, total_trips DESC;
 
+## Explore the difference between casual riders and member riders, rides per month.
+
+SELECT month, usertype, COUNT(trip_id) AS total_trips
+FROM divvy_trips_2019_combined_data
+GROUP BY usertype, month
+ORDER BY usertype, total_trips;
+
+## Explore the difference between casual riders and member riders, rides per day. 
+
+SELECT day_of_week, usertype, COUNT(trip_id) AS total_trips
+FROM divvy_trips_2019_combined_data
+GROUP BY usertype, day_of_week
+ORDER BY usertype, total_trips;
+
+
