@@ -1,0 +1,10 @@
+-- Combine the 4, Divvy_Trips_2019_Q1, Divvy_Trips_2019_Q2, Divvy_Trips_2019_Q3, Divvy_Trips_2019_Q4, tables.
+CREATE TABLE divvy_trips_2019_combined_data AS (
+	SELECT * FROM divvy_trips_2019_q1
+	UNION
+	SELECT * FROM divvy_trips_2019_q2
+	UNION
+	SELECT * FROM divvy_trips_2019_q3
+	UNION
+	SELECT * FROM divvy_trips_2019_q4
+);
