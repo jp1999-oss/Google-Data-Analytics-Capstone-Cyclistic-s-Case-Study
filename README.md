@@ -76,15 +76,18 @@ Explanation: The Cyclysitc subscribers take more trips than the Cyclsitic member
 
 Explanantion: The Cyclystic members on average, enjoy longer bike rides throughout the month, day, and hour. This is interesting because while their total bike ride is significantly less than subscribers, the members' total ride time in the peak months May thru Oct. is almost 3 times longer than subscribers. The results are similar for the total ride time for bike rides throughout the day and hour.
 
-| Similarities & Differences|
-|Casual|Member|
-|------|------|
-|fmngn|tbtnr|
-|||
-|||  
+Summary:
+Riding Patterns: Cyclistic subscribers mostly ride on a daily schedule at certain hours, presumably because they are commuting to and from work. Cyclystic members ride dispersion is more spread out and spontaneous, presumably because they use the bike for leisure. Both subscribers and members take more rides during the spring and summer.
+
+Riding Frequency and Duration: Cyclystic subscribers ride more frequently for less amount of time, presumably because they are commuting to and from work. Cyclystic members ride more infrequent, however when they do ride it is almost 3 times longer than subscribers rides.
 
 ## Act
 
+1. Develop a reward system for Cyclystic subcribers. The reward system will offer local promotions or treats for accumulated ride time and consistency. With this system, current Cyclistic subscribers will be rewarded because of their consistency, and Cyclystic members will convert to subscribers to enjoy the benefits of their longer ride times. A reward could be a free smoothie from a local juicery, this engages the local community, expands Cyclystic's reach and creates motivated users.
+
+2. Offer a flexible 6 month subscriber package, and for first time subscribers they will get the remainder of the first year free. This model supports the peak months, May thru October and allows the newly subscribed rider to experience the subscriber package for the entire year at a discount. This recommendation relies on the subscriber to find unrealized value in the six months of free riding, and if the value is found they will continue to renew as an annual subscriber.
+
+3. Launch a marketing campaign throughout the locations most frequented by Cyclystic members. The campaign will focus on the value of an annual subscription rather an every time use charge, and this can convert members to subscribers.
 
 
 
