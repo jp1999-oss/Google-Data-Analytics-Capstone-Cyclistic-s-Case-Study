@@ -6,7 +6,12 @@ For this case study I will perform the tasks of a junior data analyst working on
 ## Quick links:
 Data Source: [Divvy_Trips_2019](https://divvy-tripdata.s3.amazonaws.com/index.html) (Q1-Q4)
 
-SQL Queries:
+SQL Queries: 
+
+[Data Combining](https://github.com/jp1999-oss/Google-Data-Analytics-Capstone-Cyclistic-s-Case-Study/blob/main/01.%20Data%20Combining)
+[Data Exploration](https://github.com/jp1999-oss/Google-Data-Analytics-Capstone-Cyclistic-s-Case-Study/blob/main/02.%20Data%20Exploration)
+[Data Cleaning](https://github.com/jp1999-oss/Google-Data-Analytics-Capstone-Cyclistic-s-Case-Study/blob/main/03.%20Data%20Cleaning)
+[Data Analysis](https://github.com/jp1999-oss/Google-Data-Analytics-Capstone-Cyclistic-s-Case-Study/blob/main/04.%20Data%20Analysis)
 
 Data Visualization: [Tableau](https://public.tableau.com/app/profile/justin.pena/viz/CyclisticsCaseStudy_17194634778200/Avg_BikeRideTimeBreakdown#1)
 
@@ -71,9 +76,10 @@ Explanation: The Cyclysitc subscribers take more trips than the Cyclsitic member
 
 Explanantion: The Cyclystic members on average, enjoy longer bike rides throughout the month, day, and hour. This is interesting because while their total bike ride is significantly less than subscribers, the members' total ride time in the peak months May thru Oct. is almost 3 times longer than subscribers. The results are similar for the total ride time for bike rides throughout the day and hour.
 
+| Similarities & Differences|
 |Casual|Member|
 |------|------|
-|||
+|fmngn|tbtnr|
 |||
 |||  
 
